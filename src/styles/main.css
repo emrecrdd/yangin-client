@@ -1,0 +1,9 @@
+.sensor-marker {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.sensor-marker:hover {
+  transform: scale(1.3);
+  z-index: 999;
+}
